@@ -1,0 +1,21 @@
+
+
+
+
+
+import java.util.Scanner;
+public class Main{
+  public static void main (String[]args){
+   Scanner s = new Scanner (System.in) ;  
+   int w;
+    w = s.nextInt();
+    if( w % 2 ==0 && w > 2 ){
+      System.out.println("yES");
+   } else {
+       System.out.println("NO");
+          }
+    s.close();
+      
+      }
+ 
+}
